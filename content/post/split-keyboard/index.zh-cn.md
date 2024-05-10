@@ -2,15 +2,15 @@
 title: 分体键盘选择参考
 description: 给需要买分体键盘的人指明方向
 slug: split-keyboard
-date: 2022-03-06 00:00:00+0000
+date: 2024-04-22
 image: split-keyboard.jpg
 categories:
-    - 文档
+  - 文档
 tags:
-    - 键盘
-    - 文档
-    - 中文
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+  - 键盘
+  - 文档
+  - 中文
+weight: 1
 ---
 
 由于各种各样的原因，你开始考虑买一个分体键盘。

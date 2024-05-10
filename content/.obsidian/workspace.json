@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/split-keyboard/index.zh-cn.md",
+                "file": "categories/keyboard/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/split-keyboard/index.zh-cn.md",
+                "file": "categories/keyboard/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/split-keyboard/index.zh-cn.md",
+                "file": "categories/keyboard/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "post/split-keyboard/index.zh-cn.md"
+                "file": "categories/keyboard/_index.md"
               }
             }
           }
@@ -148,16 +148,25 @@
   },
   "active": "2d96e4410c2350e5",
   "lastOpenFiles": [
-    "categories/keyboard/_index.md",
-    "post/split-keyboard/index.zh-cn.md",
+    "page/links/index.md",
+    "page/links/ts-logo-128.jpg",
+    "page/search/index.md",
+    "page/search/index.zh-cn.md",
     "_index.zh-cn.md",
-    "post/split-keyboard/split-keyboard.jpg",
-    "未命名.md",
     "_index.md",
+    "post/split-keyboard/split-keyboard.jpg",
+    "post/split-keyboard/index.zh-cn.md",
+    "post/math-typesetting/index.md",
+    "post/markdown-syntax/index.md",
+    "post/image-gallery/index.md",
+    "post/image-gallery/2.jpg",
+    "post/image-gallery/1.jpg",
     "page/archives/index.zh-cn.md",
     "page/archives/index.md",
-    "page/about/index.md",
     "page/about/index.zh-cn.md",
+    "page/about/index.md",
+    "categories/keyboard/_index.md",
+    "未命名.md",
     "page/archives/index copy.md"
   ]
 }
