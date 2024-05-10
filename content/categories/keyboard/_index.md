@@ -1,6 +1,6 @@
 ---
-title: 键盘
-description: 键盘经历
+title: Example Category
+description: A description of this category
 image:
 
 # Badge style
