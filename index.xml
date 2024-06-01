@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ks4's actual life</title><link>https://actual-life.netlify.app/</link><description>Recent content on Ks4's actual life</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://actual-life.netlify.app/index.xml" rel="self" type="application/rss+xml"/><item><title>分体键盘的入门参考</title><link>https://actual-life.netlify.app/p/split-keyboard/</link><pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate><guid>https://actual-life.netlify.app/p/split-keyboard/</guid><description>&lt;img src="https://actual-life.netlify.app/p/split-keyboard/split-keyboard.jpg" alt="Featured image of post 分体键盘的入门参考" />&lt;p>由于各种各样的原因，你开始考虑买一个分体键盘。然后你可能会在网上搜索，或者经朋友推荐等等，来到这篇参考。&lt;/p>
+&lt;p>作者写这篇参考的初衷是让人们不再对分体键盘陌生。国内讨论分体键盘的内容较少，因此作者打算列一个简单的总结。这也算是对喜欢新奇的人作出一点贡献，毕竟他们可能厌烦国内的某些老旧软件和硬件，想要尝试点新东西。这篇参考自然也包括了在 reddit 上&lt;a class="link" href="https://www.reddit.com/r/ErgoMechKeyboards/" target="_blank" rel="noopener"
+>人体工程学键盘&lt;/a>分区的较新内容。&lt;/p>
+&lt;p>这篇参考默认你已经知道&lt;a class="link" href="https://sspai.com/post/45721" target="_blank" rel="noopener"
+>&lt;strong>标准指法&lt;/strong>&lt;/a>，不过你不需要掌握得很熟练，只需要了解就可以了。但是如果你真的要准备买来用，那么你就只能学习了。&lt;/p>
+&lt;h2 id="软硬件的选择">软、硬件的选择
+&lt;/h2>&lt;h3 id="软硬件之间via-还是-vial">软硬件之间：VIA 还是 VIAL
+&lt;/h3>&lt;p>这篇参考讨论有线键盘，而且它的方案是 QMK。&lt;/p>
+&lt;p>QMK 是一种固件，能全权操控键盘，但是如果直接用它，需要写 C 语言的代码。不过，如果你不对键盘本身追求高级功能，只要能看懂代码，然后看官方文档，知道哪一个键代表什么；接着复制粘贴到对应的位置，这就足够了。虽然是这样，你写完代码了，它还要自己编译出来固件，然后你还要自己刷入到键盘里。所以直接编辑固件是很麻烦的。如果你需要，这是 &lt;a class="link" href="https://docs.qmk.fm/#/" target="_blank" rel="noopener"
+>QMK 的主页&lt;/a>。&lt;/p>
+&lt;p>大多数人只需要会使用 VIA。VIA 提供了界面去操控 QMK 的键盘，就像许多键盘的“驱动”界面一样。VIA 不算是软件，所以可以不用下载，能在浏览器上直接使用，但是它需要浏览器支持 WebHID。支持的浏览器包括 Chromium 系，比如 Chrome 以及自带的 Edge。也就是说，&lt;strong>火狐是不行的&lt;/strong>。你可以在 &lt;a class="link" href="https://www.caniusevia.com/" target="_blank" rel="noopener"
+>VIA 的主页&lt;/a> 里点击里面的 “Start Now”，或者直接收藏&lt;a class="link" href="https://usevia.app/" target="_blank" rel="noopener"
+>它的网址&lt;/a>来实时操控键盘。&lt;/p>
+&lt;p>除此之外，还有一个界面叫 VIAL。VIAL 的功能更多，所以使用的存储内存比 VIA 多。每个键盘都会有一个主控，这个主控就像 CPU；这个“CPU”的存储内存是固定的，它直接决定了你能不能使用 VIAL，以及使用它到什么程度。你可以从 &lt;a class="link" href="https://get.vial.today/" target="_blank" rel="noopener"
+>VIAL 的主页&lt;/a>里看到它的软件的截图。对于 VIAL，我更推荐下载它的软件，因为网页有可能有奇奇怪怪的问题。&lt;/p>
+&lt;p>你可能会问，&lt;a class="link" href="#%e9%82%a3%e4%b9%88%e6%97%a0%e7%ba%bf%e5%91%a2" >那么，无线呢？&lt;/a>对广大的无线爱好者，后文也提出了为什么在这里不讨论无线；不过这里先说键盘的硬件问题。&lt;/p>
+&lt;h3 id="硬件选择轴种类">硬件：选择轴种类
+&lt;/h3>&lt;ul>
+&lt;li>普通机械轴键盘。一般选的都是普通机械轴，因为很多人都希望能用之前键盘上的轴体。&lt;/li>
+&lt;li>矮轴键盘。为了极端的便携性或者短键程可以选择这个。
+&lt;ul>
+&lt;li>目前矮轴轴体还没有能静音的。如果你需要静音，那么可以直接排除矮轴键盘。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="硬件选择按键设计">硬件：选择按键设计
+&lt;/h3>&lt;p>键盘的按键设计有平面和曲面的。一般的人都会先选择平面，这能让他们尽快适应新键盘。曲面键盘不建议没用过平面的人选，因为首先是贵，其次它的造型是立体的，比平面更难适应。&lt;/p>
+&lt;p>你可以把按键设计的规格参数打印在纸上，然后感受一下这个设计是否适合你的手。有人就做了这样的网站，收集了不同设计的规格参数，用来对比不同的分体键盘按键设计。如果你好奇，可以看看&lt;a class="link" href="https://compare.splitkb.com/" target="_blank" rel="noopener"
+>分体键盘设计对比&lt;/a>。&lt;/p>
+&lt;p>如果你需要大众认可的设计，可以先参考&lt;a class="link" href="https://www.reddit.com/r/ErgoMechKeyboards/comments/cz24cg/github_diimdeepawesomesplitkeyboards_a_collection/" target="_blank" rel="noopener"
+>分体键盘社区介绍的东西&lt;/a>。如果你需要一个大合集，或者你根本就没有想买分体键盘，只是为了看看实物，可以搜索关键词“split keyboards database”之类的东西。&lt;/p>
+&lt;p>在国内，出名才有出货量，有出货量才会便宜。所以，这里只会列出几种选择：&lt;/p>
+&lt;ul>
+&lt;li>平面
+&lt;ol>
+&lt;li>&lt;a class="link" href="https://github.com/foostan/crkbd/" target="_blank" rel="noopener"
+>corne&lt;/a> 是外网很经典的设计；它虽然没有数字键，但是也有很多中国人用；&lt;/li>
+&lt;li>&lt;a class="link" href="https://josefadamcik.github.io/SofleKeyboard/" target="_blank" rel="noopener"
+>sofle&lt;/a> 比较像 corne，不过有一排数字键。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>曲面
+&lt;ol>
+&lt;li>&lt;a class="link" href="https://github.com/adereth/dactyl-keyboard" target="_blank" rel="noopener"
+>Dactyl&lt;/a> 以及类似它的设计；&lt;/li>
+&lt;li>&lt;a class="link" href="https://bastardkb.com/charybdis/" target="_blank" rel="noopener"
+>Charybdis&lt;/a> 由 BastardKB 设计，特点是带轨迹球，让人使用键盘时不用松开手去摸鼠标。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>也有厂商自己设计了配列，以下出名的（你在闲鱼能买到的）全部都支持 QMK 固件：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://ergodox-ez.com/" target="_blank" rel="noopener"
+>Ergodox EZ&lt;/a>：老牌，可调整体的高低，是一个平面键盘。被人指责拇指键安排不合理，以及键帽比较难买。&lt;em>不建议购买这个，大势已去；&lt;/em>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.zsa.io/moonlander/" target="_blank" rel="noopener"
+>ZSA Moonlander&lt;/a>：新兴设计，可以分别调主键位高低和拇指键的高低；&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.moergo.com/collections/glove80-keyboards" target="_blank" rel="noopener"
+>MoErgo Glove80&lt;/a>：目前还是最受欢迎的矮轴曲面键盘。&lt;/li>
+&lt;/ul>
+&lt;h3 id="软件选择映射参考">软件：选择映射参考
+&lt;/h3>&lt;p>&lt;em>（此处忽略了键盘的布局，因为我默认大家都使用 &lt;code>QWERTY&lt;/code>。）&lt;/em>&lt;/p>
+&lt;p>“&lt;strong>映射&lt;/strong>”的是键盘的某个键按下时，电脑会发生什么。它说明了你操控电脑的方式，包括你打字的方式。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>映射不仅包括你现在看到的所有按键，还有别的键（比如 &lt;code>F1&lt;/code> 键）在别的“&lt;strong>层&lt;/strong>”（layer）下。你需要按下对应的键让键盘激活对应的层才能打出这些按键。&lt;/p>
+&lt;p>映射有以下三种类别，是根据操控 mod 键的方式不同而分类的。Mod 键（modifiers、有时译作修改键）通常来说指的是 Ctrl、Alt、GUI 和 Shift 和它们的组合。&lt;/p>
+&lt;ul>
+&lt;li>GUI 在 Windows 系统下是 &lt;code>Windows&lt;/code> 键，在 MacOS 系统下是 &lt;code>Command&lt;/code> 键；有时也称 &lt;code>Meta&lt;/code>；&lt;/li>
+&lt;li>Mods 的组合其实就是一个信号。比如，在 Windows 系统中，按下 &lt;code>Ctrl&lt;/code> 和 &lt;code>C&lt;/code> 键时，键盘就会发送 &lt;code>Ctrl+C&lt;/code>，电脑收到时就会计算出一个键值，然后执行相应的操作（一般是 &lt;code>复制&lt;/code>）。&lt;/li>
+&lt;/ul>
+&lt;p>以下举例的映射应该是作为参考的，可以根据自己的使用习惯进行调整。我推荐先参考 &lt;a class="link" href="https://github.com/manna-harbour/miryoku/tree/master/docs/reference" target="_blank" rel="noopener"
+>&lt;strong>Miryoku&lt;/strong>&lt;/a>。&lt;/p>
+&lt;h4 id="home-row-mods">&lt;strong>Home row mods&lt;/strong>
+&lt;/h4>&lt;p>Home row 指的是 &lt;code>ASDF…JKL;&lt;/code> 这一排。&lt;/p>
+&lt;p>&lt;strong>Home row mods&lt;/strong> 指的是是用你的手指默认放的位置（左手手指在 &lt;code>ASDF&lt;/code>，而右手手指在 &lt;code>JKL;&lt;/code>）来按 mod 键。&lt;/p>
+&lt;p>这一类映射全部都使用到 mod-tap 功能。这个功能的意思是：你在普通按按键时，电脑会输入一个键，而长按时又会激活别的键。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/manna-harbour/miryoku/tree/master/docs/reference" target="_blank" rel="noopener"
+>&lt;strong>Miryoku&lt;/strong>&lt;/a> 是整个社区最出名的代表
+&lt;ul>
+&lt;li>要求 3x5 加 3 个拇指键；&lt;/li>
+&lt;li>原版最出名，最多人用，适合大多数人用；&lt;/li>
+&lt;li>即使不使用原版的 Colemak Mod-DH 配列，使用 QWERTY 也能用，照抄其他的 layers 就行；&lt;/li>
+&lt;li>磨合期比下面提到的 One shot mods 更长。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="one-shot-mods">&lt;strong>One shot mods&lt;/strong>
+&lt;/h4>&lt;p>mod-tap 功能有一个缺点是延迟较大或不稳定时容易误触。&lt;br>
+比如，社区的人在使用原版 Miryoku 时，发现很容易把 &lt;code>A&lt;/code> 键按得稍微长一点点，这样就触发了 &lt;code>Windows 键&lt;/code>。为了避免误触，社区的人有两种选择，要么调高 QMK 的长按时间（默认是 200 ms），但是那样就会拖慢了操作速度；要么不用 mod-tap，只用 layers，就像很多键盘的 &lt;code>FN&lt;/code> 键 一样。有些人就是这么做的：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/callum-oakley/qmk_firmware/tree/master/users/callum" target="_blank" rel="noopener"
+>&lt;strong>callum&lt;/strong>&lt;/a>
+&lt;ul>
+&lt;li>完全没有 mod-tap；&lt;/li>
+&lt;li>要求 3x5 加 2 个拇指键。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://stevep99.github.io/seniply/" target="_blank" rel="noopener"
+>&lt;strong>seniply&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>大部分人看到这里都会选择 &lt;strong>Home row mods&lt;/strong> 和 &lt;strong>One shot mods&lt;/strong> 其中之一。&lt;/p>
+&lt;h4 id="combo-mods">&lt;strong>Combo mods&lt;/strong>
+&lt;/h4>&lt;p>Combo 一般译成组合键。组合键的意思是在一定时间内同时按下多个键。
+&lt;strong>Combo mods&lt;/strong> 指的是按下多个键来触发 mod 键。
+这部分给的是比 3x5 小的键盘用的，算是给以上映射一个「突破」。这部分的映射最难熟练，因为前面两个部分最多只用到了 layer 和 combo，这里用了更高阶的功能。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/rafaelromao/keyboards" target="_blank" rel="noopener"
+>rafaelromao&lt;/a>
+&lt;ul>
+&lt;li>总共仅要求 24 个键；&lt;/li>
+&lt;li>令人畏惧的&lt;a class="link" href="https://github.com/rafaelromao/keyboards?tab=readme-ov-file#main-features" target="_blank" rel="noopener"
+>功能数量&lt;/a>，没有相关需求根本看不懂；没有 QMK 相关知识也看不懂；&lt;/li>
+&lt;li>可以使用 &lt;a class="link" href="https://precondition.github.io/home-row-mods#alternative-home-row-mods-layout" target="_blank" rel="noopener"
+>Home Block Mods&lt;/a> 来替代 &lt;strong>Home row mods&lt;/strong>，比如用拇指按住 &lt;code>V&lt;/code> 键或 &lt;code>M&lt;/code> 键来进行 combo（原版是按下 &lt;code>C&lt;/code> 键和 &lt;code>P&lt;/code> 键形成 &lt;code>Ctrl&lt;/code> ）。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a class="link" href="https://jasoncarloscox.com/blog/combo-mods/" target="_blank" rel="noopener"
+>Jason Cox&lt;/a>
+&lt;ul>
+&lt;li>不是具体的映射，只是提供了一个想法。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="开始使用">开始使用
+&lt;/h2>&lt;p>当你选好了键位参考之后，再自己调整一遍，就可以开始使用了。&lt;/p>
+&lt;ul>
+&lt;li>大部分英语母语者都报告说，自己要一个月才能适应分体键盘；&lt;/li>
+&lt;li>分体键盘肯定需要记忆每一层 layer 来形成肌肉记忆的。在这期间，你可以用便利贴把所有 layer 和 combo 写下来，贴在电脑屏幕的下方。&lt;/li>
+&lt;/ul>
+&lt;p>加油。&lt;/p>
+&lt;h3 id="那么无线呢">那么，无线呢？
+&lt;/h3>&lt;p>无线方案目前仅有 &lt;a class="link" href="https://zmk.dev/" target="_blank" rel="noopener"
+>ZMK&lt;/a>，而且它不太成熟。根据我自己的情况，它有两个很明显的缺点：&lt;/p>
+&lt;ul>
+&lt;li>轨迹球反应不稳定；&lt;/li>
+&lt;li>延迟大，进而影响的是关于长按的功能。（比如，Vial 里有一个 combo 的功能，就是同时按两个键触发另外一个键，如果延迟大或者不稳定，那么你没办法依赖这个功能）&lt;/li>
+&lt;/ul>
+&lt;p>目前大部分的商业产品都是有线的（&lt;a class="link" href="https://ergodox-ez.com/" target="_blank" rel="noopener"
+>Ergodox EZ&lt;/a>、&lt;a class="link" href="https://www.zsa.io/moonlander/" target="_blank" rel="noopener"
+>ZSA Moonlander&lt;/a> 和 &lt;a class="link" href="https://www.moergo.com/pages/glove80-product-details" target="_blank" rel="noopener"
+>MoErgo Glove80&lt;/a>）。&lt;/p>
+&lt;p>不过，如果你只使用 Layers，它的延迟问题倒是没那么严重；加上大多数人都不太会加上轨迹球，所以 ZMK 还是可以在使用 QMK 之后尝试的。&lt;/p>
+&lt;h2 id="个人看法">个人看法
+&lt;/h2>&lt;ul>
+&lt;li>不要考虑非分体键盘：
+&lt;ul>
+&lt;li>不要听信普通斜列键盘说的「人体工程学」，那和「i9 级电脑」没差别；分体的斜列也不好，比如 &lt;a class="link" href="https://mistelkeyboard.com/" target="_blank" rel="noopener"
+>mistel 做的分体键盘&lt;/a>；&lt;/li>
+&lt;li>不要听信 Alice 配列，有钱有时间的可以试试。反正没用；&lt;/li>
+&lt;li>微软那几个键盘甚至都没有「层」设定；&lt;/li>
+&lt;li>有些键帽的介绍会写自己是符合人体工程学，这种硬加一个标签的介绍非常搞笑。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>身体不适才&lt;strong>需要&lt;/strong>分体键盘。&lt;/li>
+&lt;li>如果身体没有不适，请等待它不适：
+&lt;ul>
+&lt;li>用更好的工具不会让你更健康，只会让你没有那么快变烂；&lt;/li>
+&lt;li>如果有多余的钱和多余的时间，那可以考虑分体键盘。比如，你需要 800 元才能购置一个键盘；这个键盘的磨合期还不会干扰到你的正常工作。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>不要考虑不带有 QMK （或者 ZMK、VIA、VIAL）的键盘。软件当然可以做到它们的效果，不过很麻烦。&lt;/li>
+&lt;/ul>
+&lt;p>有些工作岗位不能携带你们自己的键盘，这种情况下只能用软件（如 &lt;a class="link" href="https://github.com/kmonad/kmonad" target="_blank" rel="noopener"
+>KMonad&lt;/a>）来弥补普通斜列键盘带来的缺陷。如果电脑不能下第三方软件，祝你们好运。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>2024-06-02 更新 layer 的解释&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>2024-05-31 超链、语法&lt;/strong>&lt;/p>
+&lt;p>超链改为更好的标题，以及语法修正&lt;/p>
+&lt;p>&lt;strong>2024-05-10 迁移到 Hugo&lt;/strong>&lt;/p>
+&lt;p>调整了标点符号&lt;/p>
+&lt;p>&lt;strong>2024-05-02 调整&lt;/strong>&lt;/p>
+&lt;p>调整了无线部分到后面。&lt;br>
+解决了一些语法问题。&lt;/p>
+&lt;p>&lt;strong>2024-04-22 第一次发布&lt;/strong>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>在英文里，按照直译，它应该是 keymaps，不过目前大家都更喜欢用 layout 这个词。它们的区别就是 keymap 不一定要有真的实体键盘，而 layout 一定要有。比如，游戏里的“前进”设为 &lt;code>W&lt;/code> 键，“向左走”设为 &lt;code>E&lt;/code> 键等等，就是没有把键映射到键盘，而只是映射到“前进”和“向左走”的行为上，这种就是 keymap。如果把 &lt;code>W&lt;/code> 键、&lt;code>E&lt;/code> 键等等映射到键盘的按键上，那就是 layout。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>存档</title><link>https://actual-life.netlify.app/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://actual-life.netlify.app/archives/</guid><description/></item><item><title>Links</title><link>https://actual-life.netlify.app/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://actual-life.netlify.app/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>关于</title><link>https://actual-life.netlify.app/%E5%85%B3%E4%BA%8E/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://actual-life.netlify.app/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>我用 &lt;strong>&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a>&lt;/strong> 做了这个博客，因为它在 &lt;a class="link" href="https://fmhy.net/storage#website-creators" target="_blank" rel="noopener"
+>静态网站构建排行榜&lt;/a> 里排行第一，而不是因为我有多爱它。&lt;/p></description></item><item><title>搜索</title><link>https://actual-life.netlify.app/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://actual-life.netlify.app/search/</guid><description/></item></channel></rss>
