@@ -16,5 +16,6 @@
   "minimal-style@@row-alt": false,
   "minimal-style@@table-nowrap": false,
   "minimal-style@@row-hover": false,
-  "minimal-style@@maximize-tables-off": "maximize-tables-off"
+  "minimal-style@@maximize-tables-off": "maximize-tables-off",
+  "minimal-style@@bold-weight": 900
 }
