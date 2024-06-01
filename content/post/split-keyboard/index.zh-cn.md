@@ -51,10 +51,10 @@ QMK 是一种固件，能全权操控键盘，但是如果直接用它，需要�
 
 - 平面
   1. [corne](https://github.com/foostan/crkbd/) 是外网很经典的设计；它虽然没有数字键，但是也有很多中国人用；
-  2. [sofle](https://josefadamcik.github.io/SofleKeyboard/) 比较像 corne，不过有一排数字键；
+  2. [sofle](https://josefadamcik.github.io/SofleKeyboard/) 比较像 corne，不过有一排数字键。
 - 曲面
-  1. [Dactyl](https://github.com/adereth/dactyl-keyboard)以及类似它的设计；
-  2. [Charybdis](https://bastardkb.com/charybdis/)由 BastardKB 设计，特点是带轨迹球，让人使用键盘时不用松开手去摸鼠标。
+  1. [Dactyl](https://github.com/adereth/dactyl-keyboard) 以及类似它的设计；
+  2. [Charybdis](https://bastardkb.com/charybdis/) 由 BastardKB 设计，特点是带轨迹球，让人使用键盘时不用松开手去摸鼠标。
 
 也有厂商自己设计了配列，以下出名的（你在闲鱼能买到的）全部都支持 QMK 固件：
 
@@ -112,8 +112,8 @@ Combo 一般译成组合键。组合键的意思是在一定时间内同时按�
 这部分给的是比 3x5 小的键盘用的，算是给以上映射一个「突破」。这部分的映射最难熟练，因为前面两个部分最多只用到了 layer 和 combo，这里用了更高阶的功能。  
 
 - [rafaelromao](https://github.com/rafaelromao/keyboards)
-  - 总共仅要求 24 个键。
-  - 令人畏惧的[功能数量](https://github.com/rafaelromao/keyboards?tab=readme-ov-file#main-features)，没有相关需求根本看不懂；没有 QMK 相关知识也看不懂。
+  - 总共仅要求 24 个键；
+  - 令人畏惧的[功能数量](https://github.com/rafaelromao/keyboards?tab=readme-ov-file#main-features)，没有相关需求根本看不懂；没有 QMK 相关知识也看不懂；
   - 可以使用 [Home Block Mods](https://precondition.github.io/home-row-mods#alternative-home-row-mods-layout) 来替代 **Home row mods**，比如用拇指按住 `V` 键或 `M` 键来进行 combo（原版是按下 `C` 键和 `P` 键形成 `Ctrl` ）。
 - [Jason Cox](https://jasoncarloscox.com/blog/combo-mods/)
   - 不是具体的映射，只是提供了一个想法。
@@ -148,7 +148,7 @@ Combo 一般译成组合键。组合键的意思是在一定时间内同时按�
 - 身体不适才**需要**分体键盘。
 - 如果身体没有不适，请等待它不适：
   - 用更好的工具不会让你更健康，只会让你没有那么快变烂；
-  - 如果有多余的钱和多余的时间，那可以考虑分体键盘。比如，你需要 800 元才能购置一个键盘；这个键盘的磨合期还不会干扰到你的正常工作；
+  - 如果有多余的钱和多余的时间，那可以考虑分体键盘。比如，你需要 800 元才能购置一个键盘；这个键盘的磨合期还不会干扰到你的正常工作。
 - 不要考虑不带有 QMK （或者 ZMK、VIA、VIAL）的键盘。软件当然可以做到它们的效果，不过很麻烦。
 
 有些工作岗位不能携带你们自己的键盘，这种情况下只能用软件（如 [KMonad](https://github.com/kmonad/kmonad)）来弥补普通斜列键盘带来的缺陷。如果电脑不能下第三方软件，祝你们好运。
