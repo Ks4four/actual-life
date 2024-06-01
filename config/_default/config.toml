@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://ks4four.github.io/actual-life/"
+baseurl = "https://actual-life.netlify.app/"
 languageCode = "zh-Hans"
 paginate = 5
 title = "Ks4's actual life"
